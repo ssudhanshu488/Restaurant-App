@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
          click.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
-                 Uri webpage = Uri.parse("https://www.hqporner.com/");
+                 Uri webpage = Uri.parse("https://www.google.com/");
                  Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
                      startActivity(intent);
 
